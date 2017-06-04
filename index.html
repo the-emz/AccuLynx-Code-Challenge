@@ -20,98 +20,110 @@
     <div class="row">
         <div class="col-md-12">
             <form>
+
                 <div class="form-group">
                     <label for="contact-image">Contact Image</label>
-                    <input id="contact-image" type="file">
+                    <input class="form-control" id="contact-image" type="file">
                 </div>
-                <div class="form-group">
-                    <label for="contact-salutation">Salutation</label>
-                    <input id="contact-salutation" placeholder="Mr.">
-                </div>
-                <div class="form-group">
-                    <label for="contact-first">First Name</label>
-                    <input id="contact-first" placeholder="John">
-                </div>
-                <div class="form-group">
-                    <label for="contact-last">Last Name</label>
-                    <input id="contact-last" placeholder="Smith">
+                <div class="name row">
+                    <h2 class="col-md-12">Contact Name</h2>
+                    <div class="form-group col-md-2">
+                        <label for="contact-salutation">Salutation</label>
+                        <input class="form-control" id="contact-salutation" placeholder="Mr.">
+                    </div>
+                    <div class="form-group col-md-5">
+                        <label for="contact-first">First Name</label>
+                        <input class="form-control" id="contact-first" placeholder="John">
+                    </div>
+                    <div class="form-group col-md-5">
+                        <label for="contact-last">Last Name</label>
+                        <input class="form-control" id="contact-last" placeholder="Smith">
+                    </div>
                 </div>
                 <div class="form-group">
                     <label for="contact-company">Company</label>
-                    <input id="contact-company" placeholder="John's Widgets">
+                    <input class="form-control" id="contact-company" placeholder="John's Widgets">
                 </div>
-                <div class="form-group">
-                    <label for="contact-phone">Phone Number</label>
-                    <input id="contact-phone" type="tel" placeholder="123-456-7890">
+                <div class="phone row">
+                    <h2 class="col-md-12">Phone Number(s)</h2>
+                    <div class="form-group col-md-2">
+                        <label for="contact-phone-primary">Primary Number</label>
+                        <input class="form-control" id="contact-phone-primary" type="checkbox">
+                    </div>
+                    <div class="form-group col-md-5">
+                        <label for="contact-phone">Phone Number</label>
+                        <input class="form-control" id="contact-phone" type="tel" placeholder="123-456-7890">
+                    </div>
+                    <div class="form-group col-md-5">
+                        <label for="contact-phone-ext">Phone Extension</label>
+                        <input class="form-control" id="contact-phone-ext" placeholder="123">
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="contact-phone-ext">Phone Extension</label>
-                    <input id="contact-phone-ext" placeholder="123">
-                </div>
-                <div class="form-group">
-                    <label for="contact-phone-primary">Primary Number</label>
-                    <input id="contact-phone-primary" type="checkbox">
-                </div>
-                <div class="form-group">
-                    <label for="contact-email">Email</label>
-                    <input id="contact-email" type="email" placeholder="johnsmith@johnswidgets.com">
-                </div>
-                <div class="form-group">
-                    <label for="contact-email-primary">Primary Number</label>
-                    <input id="contact-email-primary" type="checkbox">
+                <div class="email row">
+                    <h2 class="col-md-12">Email Addresses</h2>
+                    <div class="form-group col-md-2">
+                        <label for="contact-email-primary">Primary Email</label>
+                        <input class="form-control" id="contact-email-primary" type="checkbox">
+                    </div>
+                    <div class="form-group col-md-10">
+                        <label for="contact-email">Email</label>
+                        <input class="form-control" id="contact-email" type="email" placeholder="johnsmith@johnswidgets.com">
+                    </div>
                 </div>
 
-                <div class="mailing-address">
-                    <div class="form-group">
+                <div class="mailing-address row">
+                    <h2 class="col-md-12">Mailing Address</h2>
+                    <div class="form-group col-md-6">
                         <label for="contact-mailing-street">Street Address</label>
-                        <input id="contact-mailing-street" placeholder="456 Main Street">
+                        <input class="form-control" id="contact-mailing-street" placeholder="456 Main Street">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-6">
                         <label for="contact-mailing-apt">Suite/Apt</label>
-                        <input id="contact-mailing-apt" placeholder="#789">
+                        <input class="form-control" id="contact-mailing-apt" placeholder="#789">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-6">
                         <label for="contact-mailing-city">City</label>
-                        <input id="contact-mailing-city" placeholder="Greenfield">
+                        <input class="form-control" id="contact-mailing-city" placeholder="Greenfield">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-6">
                         <label for="contact-mailing-state">State</label>
-                        <input id="contact-mailing-state" placeholder="Wisconsin">
+                        <input class="form-control" id="contact-mailing-state" placeholder="Wisconsin">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-6">
                         <label for="contact-mailing-zip">Zip Code</label>
-                        <input id="contact-mailing-zip" placeholder="23456">
+                        <input class="form-control" id="contact-mailing-zip" placeholder="23456">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-6">
                         <label for="contact-mailing-country">Country</label>
-                        <input id="contact-mailing-country" placeholder="United States">
+                        <input class="form-control" id="contact-mailing-country" placeholder="United States">
                     </div>
                 </div>
 
-                <div class="billing-address">
-                    <div class="form-group">
+                <div class="billing-address row">
+                    <h2 class="col-md-12">Billing Address</h2>
+                    <div class="form-group col-md-6">
                         <label for="contact-billing-street">Street Address</label>
-                        <input id="contact-billing-street" placeholder="456 Main Street">
+                        <input class="form-control" id="contact-billing-street" placeholder="456 Main Street">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-6">
                         <label for="contact-billing-apt">Suite/Apt</label>
-                        <input id="contact-billing-apt" placeholder="#789">
+                        <input class="form-control" id="contact-billing-apt" placeholder="#789">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-6">
                         <label for="contact-billing-city">City</label>
-                        <input id="contact-billing-city" placeholder="Greenfield">
+                        <input class="form-control" id="contact-billing-city" placeholder="Greenfield">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-6">
                         <label for="contact-billing-state">State</label>
-                        <input id="contact-billing-state" placeholder="Wisconsin">
+                        <input class="form-control" id="contact-billing-state" placeholder="Wisconsin">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-6">
                         <label for="contact-billing-zip">Zip Code</label>
-                        <input id="contact-billing-zip" placeholder="23456">
+                        <input class="form-control" id="contact-billing-zip" placeholder="23456">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-6">
                         <label for="contact-billing-country">Country</label>
-                        <input id="contact-billing-country" placeholder="United States">
+                        <input class="form-control" id="contact-billing-country" placeholder="United States">
                     </div>
                 </div>
 

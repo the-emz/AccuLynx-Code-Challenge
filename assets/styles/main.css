@@ -21,3 +21,9 @@ legend {
   width: auto; }
   legend h2 {
     font-size: 1em; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.page-title {
+  margin-top: 1em; }

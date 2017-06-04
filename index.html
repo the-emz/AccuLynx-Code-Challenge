@@ -20,32 +20,37 @@
     <div class="row">
         <div class="col-md-12">
             <form>
+                <fieldset class="name">
+                    <legend><h2 class="col-md-12">Basic Contact Information</h2></legend>
 
-                <div class="form-group">
-                    <label for="contact-image">Contact Image</label>
-                    <input class="form-control" id="contact-image" type="file">
-                </div>
-                <div class="name row">
-                    <h2 class="col-md-12">Contact Name</h2>
-                    <div class="form-group col-md-2">
-                        <label for="contact-salutation">Salutation</label>
-                        <input class="form-control" id="contact-salutation" placeholder="Mr.">
+                    <div class="row">
+                        <div class="form-group col-md-12">
+                            <label for="contact-image">Contact Image</label>
+                            <input class="form-control" id="contact-image" type="file">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="contact-salutation">Salutation</label>
+                            <input class="form-control" id="contact-salutation" placeholder="Mr.">
+                        </div>
+                        <div class="form-group col-md-5">
+                            <label for="contact-first">First Name</label>
+                            <input class="form-control" id="contact-first" placeholder="John">
+                        </div>
+                        <div class="form-group col-md-5">
+                            <label for="contact-last">Last Name</label>
+                            <input class="form-control" id="contact-last" placeholder="Smith">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="contact-company">Company</label>
+                            <input class="form-control" id="contact-company" placeholder="John's Widgets">
+                        </div>
                     </div>
-                    <div class="form-group col-md-5">
-                        <label for="contact-first">First Name</label>
-                        <input class="form-control" id="contact-first" placeholder="John">
-                    </div>
-                    <div class="form-group col-md-5">
-                        <label for="contact-last">Last Name</label>
-                        <input class="form-control" id="contact-last" placeholder="Smith">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="contact-company">Company</label>
-                    <input class="form-control" id="contact-company" placeholder="John's Widgets">
-                </div>
+
+                </fieldset>
+                <fieldset class="name">
+                    <legend><h2 class="col-md-12">Phone Number(s)</h2></legend>
+
                 <div class="phone row">
-                    <h2 class="col-md-12">Phone Number(s)</h2>
                     <div class="form-group col-md-2">
                         <label for="contact-phone-primary">Primary Number</label>
                         <input class="form-control" id="contact-phone-primary" type="checkbox">
@@ -59,8 +64,11 @@
                         <input class="form-control" id="contact-phone-ext" placeholder="123">
                     </div>
                 </div>
-                <div class="email row">
-                    <h2 class="col-md-12">Email Addresses</h2>
+                </fieldset>
+                <fieldset class="name">
+                    <legend><h2 class="col-md-12">Email Addresses</h2></legend>
+
+                        <div class="email row">
                     <div class="form-group col-md-2">
                         <label for="contact-email-primary">Primary Email</label>
                         <input class="form-control" id="contact-email-primary" type="checkbox">
@@ -70,9 +78,12 @@
                         <input class="form-control" id="contact-email" type="email" placeholder="johnsmith@johnswidgets.com">
                     </div>
                 </div>
+                </fieldset>
 
-                <div class="mailing-address row">
-                    <h2 class="col-md-12">Mailing Address</h2>
+                <fieldset class="name">
+                    <legend><h2 class="col-md-12">Mailing Address</h2></legend>
+
+                    <div class="mailing-address row">
                     <div class="form-group col-md-6">
                         <label for="contact-mailing-street">Street Address</label>
                         <input class="form-control" id="contact-mailing-street" placeholder="456 Main Street">
@@ -98,9 +109,12 @@
                         <input class="form-control" id="contact-mailing-country" placeholder="United States">
                     </div>
                 </div>
+                </fieldset>
 
-                <div class="billing-address row">
-                    <h2 class="col-md-12">Billing Address</h2>
+                <fieldset class="name">
+                    <legend><h2 class="col-md-12">Billing Address</h2></legend>
+
+                    <div class="billing-address row">
                     <div class="form-group col-md-6">
                         <label for="contact-billing-street">Street Address</label>
                         <input class="form-control" id="contact-billing-street" placeholder="456 Main Street">
@@ -126,6 +140,7 @@
                         <input class="form-control" id="contact-billing-country" placeholder="United States">
                     </div>
                 </div>
+                </fieldset>
 
                 <button type="submit">Submit</button>
 

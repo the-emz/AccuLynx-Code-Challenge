@@ -26,3 +26,21 @@ input.form-control {
     border: solid 1px;
   }
 }
+.form-footer{
+  margin-top: 2em;
+  text-align: center;
+
+  button[type="submit"]{
+    background: #efefef;
+    border: none;
+    padding: 1em 2em;
+    max-width: 50%;
+    width: 100%;
+
+    &:hover {
+      background-color: #999999;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+}

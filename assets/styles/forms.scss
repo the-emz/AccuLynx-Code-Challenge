@@ -12,6 +12,7 @@ legend{
   }
 }
 
+
 input.form-control {
   border-radius: 0;
   background: #efefef;
@@ -26,6 +27,12 @@ input.form-control {
     border: solid 1px;
   }
 }
+
+.has-danger .form-control-feedback {
+  font-style: italic;
+}
+
+
 .form-footer{
   margin-top: 2em;
   text-align: center;

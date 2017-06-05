@@ -37,3 +37,11 @@ body {
 
 .page-title {
   margin-top: 2em; }
+
+.footer {
+  background-color: #999999;
+  margin-top: 2em; }
+  .footer .copyright {
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 2em; }

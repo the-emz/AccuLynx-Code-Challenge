@@ -14,7 +14,7 @@
 fieldset {
   border: 1px black solid;
   padding: 1em;
-  margin-top: 1em; }
+  margin-top: 2em; }
 
 legend {
   margin-left: 1em;
@@ -22,8 +22,18 @@ legend {
   legend h2 {
     font-size: 1em; }
 
+input.form-control {
+  border-radius: 0;
+  background: #efefef;
+  border: solid 1px #fff; }
+  input.form-control::placeholder {
+    color: #999;
+    font-style: italic; }
+  input.form-control:focus {
+    border: solid 1px; }
+
 body {
   font-family: 'Open Sans', sans-serif; }
 
 .page-title {
-  margin-top: 1em; }
+  margin-top: 2em; }

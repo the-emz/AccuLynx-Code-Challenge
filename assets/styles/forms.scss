@@ -12,6 +12,18 @@ legend{
   }
 }
 
+.add-new button {
+  background: #B4C4CE;
+  padding: .5em 1em;
+  border: solid 1px transparent;
+
+  &:hover {
+    background: white;
+    border: solid 1px;
+    cursor: pointer;
+  }
+}
+
 
 input.form-control {
   border-radius: 0;

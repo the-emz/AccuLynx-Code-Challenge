@@ -14,12 +14,11 @@
 
   }
 }
+
 .header-spacer{
   height: 104px;
   display: block;
 }
-
-
 
 @media only screen and (max-width: 767px) {
   .header{
@@ -29,8 +28,8 @@
       font-size: 1.5em;
     }
   }
+
   .header-spacer{
     height: 52px;
   }
-
 }

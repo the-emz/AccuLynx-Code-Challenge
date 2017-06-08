@@ -2,11 +2,13 @@
  * Import other stylesheets here for processing
  */
 
+// Import Fonts
 @import url('https://fonts.googleapis.com/css?family=Bubbler+One|Open+Sans');
 
+// Define Colors
 $dark-blue: rgb(81, 117, 140);
 
-
+// Import sass files
 @import "buttons.scss";
 @import "header.scss";
 @import "forms.scss";

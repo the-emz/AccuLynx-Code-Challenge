@@ -1,9 +1,9 @@
-
 fieldset{
   border-top: 1px #ddd solid;
   padding: 1em;
   margin-top: 2em;
 }
+
 legend{
   margin-left: 1em;
   width: auto;
@@ -24,7 +24,6 @@ legend{
   }
 }
 
-
 input.form-control {
   border-radius: 0;
   background: #efefef;
@@ -43,7 +42,6 @@ input.form-control {
 .has-danger .form-control-feedback {
   font-style: italic;
 }
-
 
 .form-footer{
   margin-top: 2em;

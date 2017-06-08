@@ -1,10 +1,36 @@
 .header {
-  background: #B4C4CE;
+  background: $dark-blue;
   padding: 1em 2em;
+  position: fixed;
+  top:0;
+  right:0;
+  left: 0;
+  z-index:1;
+
+  .logo{
+    font-family: 'Bubbler One', sans-serif;
+    font-size: 3em;
+    color: white;
+
+  }
+}
+.header-spacer{
+  height: 104px;
+  display: block;
 }
 
-.logo{
-  font-family: 'Bubbler One', sans-serif;
-  font-size: 3em;
-  color: white;
+
+
+@media only screen and (max-width: 767px) {
+  .header{
+    padding: .5em 2em;
+
+    .logo {
+      font-size: 1.5em;
+    }
+  }
+  .header-spacer{
+    height: 52px;
+  }
+
 }

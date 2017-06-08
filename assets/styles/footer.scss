@@ -1,10 +1,20 @@
 .footer{
-  background-color: #999999;
+  background-color: #555555;
   margin-top: 2em;
+  position: fixed;
+  bottom:0;
+  right:0;
+  left:0;
+
 
   .copyright{
     color: #ffffff;
     text-align: center;
     padding: 1em 2em;
   }
+}
+
+.footer-spacer{
+  height: 56px;
+  display: block;
 }

@@ -3,6 +3,11 @@
  */
 
 @import url('https://fonts.googleapis.com/css?family=Bubbler+One|Open+Sans');
+
+$dark-blue: rgb(81, 117, 140);
+
+
+@import "buttons.scss";
 @import "header.scss";
 @import "forms.scss";
 @import "pages.scss";
